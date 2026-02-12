@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  Base:
+  1st:
   - {t: ESCAPE, h: '`'}
   - '1'
   - '2'
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&caps_word'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
