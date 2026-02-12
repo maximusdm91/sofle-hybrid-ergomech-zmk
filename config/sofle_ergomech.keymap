@@ -44,7 +44,7 @@
         compatible = "zmk,keymap";
 
         Base_layer {
-            label = "Base";
+            label = "1st";
 
             // ------------------------------------------------------------------------------------------------------------
             // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
@@ -84,7 +84,7 @@
 &trans       &kp H         &kp J   &kp K      &kp L       &kp SEMICOLON  &trans          &trans        &trans        &trans        &trans        &trans
 &trans       &kp N         &kp M   &kp COMMA  &kp PERIOD  &kp SLASH      &kp LBKT        &kp RBKT      &kp SEMI      &kp COLON     &kp BSLH      &trans
 &trans       &trans        &trans  &trans     &trans      &trans         &trans          &trans        &trans        &trans        &trans
-                                                                         &caps_word      &trans        &trans        &trans        &trans
+                                                                         &trans          &trans        &trans        &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
