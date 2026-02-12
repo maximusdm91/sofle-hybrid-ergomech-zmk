@@ -52,7 +52,7 @@ layers:
   - MUTE
   - LGUI
   - LALT
-  - {t: DELETE, h: 4th}
+  - 4th
   - {t: SPACE, h: 3rd}
   - {t: ENTER, h: '2nd '}
   - SPACE
